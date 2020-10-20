@@ -44,7 +44,7 @@ The object returns some properties for you to be able to interact with the sdk:
 | ```window['gengSync'].isHost()```    | Checks if the current user is the host        |
 | ```window['gengSync'].getUser()```    | Get the current user ```name``` and ```photo```        |
 | ```window['gengSync'].getOpponents()```    | Get the list of opponents ```name``` and ```photo```      |
-| ```window['gengSync'].sendGameScore()```   | Send the current user score       |
+| ```window['gengSync'].sendGameScore()```   | Send the current user score as an ```int```       |
 | ```window['gengSync'].sendGameState()```   | Send the current user state as a ```map```       |
 | ```window['gengSync'].endGame()```    | End the game session        |
 
