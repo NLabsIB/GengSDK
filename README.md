@@ -11,7 +11,6 @@ This allows you to integrate single player and turn based multiplayer games publ
 
 ```js
 window["GENG_OPTIONS"] = {
-    "gameId": "[YOUR GENG GAME ID HERE]",
     "onEvent": function(event) {
         switch (event.name) {
             case "START:GAME":
