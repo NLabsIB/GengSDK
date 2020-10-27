@@ -30,7 +30,7 @@ window["GENG_OPTIONS"] = {
     if (d.getElementById(id)) return;
     js = d.createElement(s);
     js.id = id;
-    js.src = 'https://storage.googleapis.com/geng-games/sdk.min.js';
+    js.src = 'https://geng-games.s3.eu-west-2.amazonaws.com/sdk.min.js';
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'geng-js-sdk'));
 ```
